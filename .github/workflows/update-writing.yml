@@ -18,4 +18,4 @@ jobs:
           readme_path: ./README.md
           comment_tag_name: LATEST-WRITING
           max_post_count: 8
-          feed_list: "https://civilizational-gradient.ghost.io/rss/,https://dev.to/feed/aviadr1"
+          feed_list: "https://civilizational-gradient.ghost.io/rss/,https://dev.to/feed/aviadr1,https://www.greaterwrong.com/users/aviad-rozenhek?show=posts&format=rss"
