@@ -94,7 +94,14 @@ jobs:
 
           pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
           replacement = START + "\n" + "\n".join(lines) + "\n" + END
+          if START not in content or END not in content:
+              raise RuntimeError("LATEST-WRITING markers not found in README.md")
+
           new_content = pattern.sub(replacement, content)
+          if new_content == content:
+              print("No block change produced")
+          else:
+              print(f"Updated block with {len(lines)} entries")
 
           with open(README, "w", encoding="utf-8") as f:
               f.write(new_content)
@@ -102,7 +109,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet; then
+          git status --short
+          if git diff --quiet -- README.md; then
             echo "No README changes"
             exit 0
           fi
