@@ -39,3 +39,5 @@ I build practical AI systems, tools, and developer workflows.
 <p align="center">
   <img src="https://raw.githubusercontent.com/aviadr1/aviadr1/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
+
+<!-- PROFILE-RENDER-PING: 2026-03-28T17:08:48Z -->
