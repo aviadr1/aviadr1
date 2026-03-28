@@ -1,0 +1,72 @@
+name: Update GitHub Snapshot
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update snapshot block
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+
+            const user = await github.rest.users.getByUsername({ username: owner });
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username: owner,
+              per_page: 100,
+              type: 'owner',
+            });
+
+            const publicRepos = user.data.public_repos;
+            const followers = user.data.followers;
+            const following = user.data.following;
+            const stars = repos.reduce((acc, r) => acc + (r.stargazers_count || 0), 0);
+            const forks = repos.reduce((acc, r) => acc + (r.forks_count || 0), 0);
+            const updated = new Date().toISOString().slice(0, 10);
+
+            const lines = [
+              `- Public repositories: ${publicRepos}`,
+              `- Followers: ${followers}`,
+              `- Following: ${following}`,
+              `- Total stars across owned repos: ${stars}`,
+              `- Total forks across owned repos: ${forks}`,
+              `- Last updated: ${updated}`,
+            ];
+
+            const start = '<!-- GITHUB-STATS:START -->';
+            const end = '<!-- GITHUB-STATS:END -->';
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+
+            if (!readme.includes(start) || !readme.includes(end)) {
+              core.setFailed('GITHUB-STATS markers not found in README.md');
+              return;
+            }
+
+            const pattern = new RegExp(`${start}[\\s\\S]*?${end}`, 'm');
+            const replacement = `${start}\n${lines.join('\n')}\n${end}`;
+            const next = readme.replace(pattern, replacement);
+            fs.writeFileSync(readmePath, next);
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No README changes"
+            exit 0
+          fi
+          git config user.name "aviadr1-bot"
+          git config user.email "aviadr1-bot@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update GitHub snapshot"
+          git push
