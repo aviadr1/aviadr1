@@ -1,0 +1,21 @@
+name: Update Latest Writing
+
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update README from RSS feeds
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          readme_path: ./README.md
+          comment_tag_name: LATEST-WRITING
+          max_post_count: 8
+          feed_list: "https://civilizational-gradient.ghost.io/rss/,https://dev.to/feed/aviadr1"
