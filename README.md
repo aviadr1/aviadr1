@@ -24,6 +24,7 @@ I build practical AI systems, tools, and developer workflows.
 ## Latest Writing
 
 <!-- LATEST-WRITING:START -->
+- [Turning Linear and Figma Into a Searchable Knowledge Layer with `aviadr1/issueclaw` and `aviadr1/figmaclaw`](https://dev.to/aviadr1/turning-linear-and-figma-into-a-searchable-knowledge-layer-with-aviadr1issueclaw-and-29c5) · dev.to
 - [Claude Feels Slow. But Is Moving a Team to Open-Weight Models Actually the Fix?](https://dev.to/aviadr1/claude-feels-slow-but-is-moving-a-team-to-open-weight-models-actually-the-fix-584f) · dev.to
 - [Magic Is Hidden Control of Energy](https://civilizational-gradient.ghost.io/magic-is-hidden-control-of-energy/) · Ghost
 - [Intelligence Is Adaptive Control Of Energy Through Information](https://civilizational-gradient.ghost.io/intelligence-is-adaptive-control-of-energy-through-information/) · Ghost
@@ -31,7 +32,6 @@ I build practical AI systems, tools, and developer workflows.
 - [Coming soon](https://civilizational-gradient.ghost.io/coming-soon/) · Ghost
 - [Where Are Our Pyramids? by aviad rozenhek](https://www.lesswrong.com/posts/auLjYHPjmHC29Lvxs/where-are-our-pyramids) · LessWrong
 - [Magic Is Hidden Control of Energy by aviad rozenhek](https://www.lesswrong.com/posts/743obwqnCCj7NhRKy/magic-is-hidden-control-of-energy) · LessWrong
-- [Intelligence Is Adaptive Control Of Energy Through Information by aviad rozenhek](https://www.lesswrong.com/posts/LNLL8yCA2WhGe28bc/intelligence-is-adaptive-control-of-energy-through) · LessWrong
 <!-- LATEST-WRITING:END -->
 
 ## Contributions
