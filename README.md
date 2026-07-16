@@ -16,9 +16,9 @@ I build practical AI systems, tools, and developer workflows.
 - Public repositories: 50
 - Followers: 31
 - Following: 7
-- Total stars across owned repos: 73
+- Total stars across owned repos: 74
 - Total forks across owned repos: 33
-- Last updated: 2026-07-15
+- Last updated: 2026-07-16
 <!-- GITHUB-STATS:END -->
 
 ## Latest Writing
