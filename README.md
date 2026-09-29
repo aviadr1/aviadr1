@@ -24,6 +24,7 @@ I build practical AI systems, tools, and developer workflows.
 ## Latest Writing
 
 <!-- LATEST-WRITING:START -->
+- [Stop writing platform checks around uvloop](https://dev.to/aviadr1/stop-writing-platform-checks-around-uvloop-555f) · dev.to
 - [Keep Every LangSmith Trace Without the 10 Retention Bill](https://dev.to/aviadr1/keep-every-langsmith-trace-without-the-10x-retention-bill-2gl1) · dev.to
 - [The Bitter Lesson for Backend Engineering](https://dev.to/aviadr1/the-bitter-lesson-for-backend-engineering-hof) · dev.to
 - [Turning Linear and Figma Into a Searchable Knowledge Layer with `aviadr1/issueclaw` and `aviadr1/figmaclaw`](https://dev.to/aviadr1/turning-linear-and-figma-into-a-searchable-knowledge-layer-with-aviadr1issueclaw-and-29c5) · dev.to
@@ -31,7 +32,6 @@ I build practical AI systems, tools, and developer workflows.
 - [Where Are Our Pyramids? by aviad rozenhek](https://www.lesswrong.com/posts/auLjYHPjmHC29Lvxs/where-are-our-pyramids) · LessWrong
 - [Magic Is Hidden Control of Energy by aviad rozenhek](https://www.lesswrong.com/posts/743obwqnCCj7NhRKy/magic-is-hidden-control-of-energy) · LessWrong
 - [Intelligence Is Adaptive Control Of Energy Through Information by aviad rozenhek](https://www.lesswrong.com/posts/LNLL8yCA2WhGe28bc/intelligence-is-adaptive-control-of-energy-through) · LessWrong
-- [I Replaced My LangSmith MCP Server with a 200-Token CLI Skill](https://dev.to/aviadr1/i-replaced-my-langsmith-mcp-server-with-a-200-token-cli-skill-4p94) · dev.to
 <!-- LATEST-WRITING:END -->
 
 ## Contributions
