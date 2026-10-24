@@ -24,6 +24,7 @@ I build practical AI systems, tools, and developer workflows.
 ## Latest Writing
 
 <!-- LATEST-WRITING:START -->
+- [Django Tasks with Due: commit the work, recover after a crash](https://dev.to/aviadr1/django-tasks-with-due-commit-the-work-recover-after-a-crash-n5k) · dev.to
 - [Stop writing platform checks around uvloop](https://dev.to/aviadr1/stop-writing-platform-checks-around-uvloop-555f) · dev.to
 - [Keep Every LangSmith Trace Without the 10 Retention Bill](https://dev.to/aviadr1/keep-every-langsmith-trace-without-the-10x-retention-bill-2gl1) · dev.to
 - [The Bitter Lesson for Backend Engineering](https://dev.to/aviadr1/the-bitter-lesson-for-backend-engineering-hof) · dev.to
@@ -31,7 +32,6 @@ I build practical AI systems, tools, and developer workflows.
 - [Claude Feels Slow. But Is Moving a Team to Open-Weight Models Actually the Fix?](https://dev.to/aviadr1/claude-feels-slow-but-is-moving-a-team-to-open-weight-models-actually-the-fix-584f) · dev.to
 - [Where Are Our Pyramids? by aviad rozenhek](https://www.lesswrong.com/posts/auLjYHPjmHC29Lvxs/where-are-our-pyramids) · LessWrong
 - [Magic Is Hidden Control of Energy by aviad rozenhek](https://www.lesswrong.com/posts/743obwqnCCj7NhRKy/magic-is-hidden-control-of-energy) · LessWrong
-- [Intelligence Is Adaptive Control Of Energy Through Information by aviad rozenhek](https://www.lesswrong.com/posts/LNLL8yCA2WhGe28bc/intelligence-is-adaptive-control-of-energy-through) · LessWrong
 <!-- LATEST-WRITING:END -->
 
 ## Contributions
