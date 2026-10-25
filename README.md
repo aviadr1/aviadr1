@@ -24,7 +24,7 @@ I build practical AI systems, tools, and developer workflows.
 ## Latest Writing
 
 <!-- LATEST-WRITING:START -->
-- [Django Tasks with Due: commit the work, recover after a crash](https://dev.to/aviadr1/django-tasks-with-due-commit-the-work-recover-after-a-crash-n5k) · dev.to
+- [Django Tasks with Due: start simple, grow with Acme Printworks](https://dev.to/aviadr1/django-tasks-with-due-commit-the-work-recover-after-a-crash-n5k) · dev.to
 - [Stop writing platform checks around uvloop](https://dev.to/aviadr1/stop-writing-platform-checks-around-uvloop-555f) · dev.to
 - [Keep Every LangSmith Trace Without the 10 Retention Bill](https://dev.to/aviadr1/keep-every-langsmith-trace-without-the-10x-retention-bill-2gl1) · dev.to
 - [The Bitter Lesson for Backend Engineering](https://dev.to/aviadr1/the-bitter-lesson-for-backend-engineering-hof) · dev.to
