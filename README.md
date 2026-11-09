@@ -30,8 +30,8 @@ I build practical AI systems, tools, and developer workflows.
 - [The Bitter Lesson for Backend Engineering](https://dev.to/aviadr1/the-bitter-lesson-for-backend-engineering-hof) · dev.to
 - [Turning Linear and Figma Into a Searchable Knowledge Layer with `aviadr1/issueclaw` and `aviadr1/figmaclaw`](https://dev.to/aviadr1/turning-linear-and-figma-into-a-searchable-knowledge-layer-with-aviadr1issueclaw-and-29c5) · dev.to
 - [Claude Feels Slow. But Is Moving a Team to Open-Weight Models Actually the Fix?](https://dev.to/aviadr1/claude-feels-slow-but-is-moving-a-team-to-open-weight-models-actually-the-fix-584f) · dev.to
-- [I Replaced My LangSmith MCP Server with a 200-Token CLI Skill](https://dev.to/aviadr1/i-replaced-my-langsmith-mcp-server-with-a-200-token-cli-skill-4p94) · dev.to
-- [Using AI to Audit Engineering Team Output: An Experiment with Claude](https://dev.to/aviadr1/using-ai-to-audit-engineering-team-output-an-experiment-with-claude-51h7) · dev.to
+- [Where Are Our Pyramids? by aviad rozenhek](https://www.lesswrong.com/posts/auLjYHPjmHC29Lvxs/where-are-our-pyramids) · LessWrong
+- [Magic Is Hidden Control of Energy by aviad rozenhek](https://www.lesswrong.com/posts/743obwqnCCj7NhRKy/magic-is-hidden-control-of-energy) · LessWrong
 <!-- LATEST-WRITING:END -->
 
 ## Contributions
